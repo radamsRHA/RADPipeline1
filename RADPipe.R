@@ -1,3 +1,7 @@
+# Set working directory to the parent directory containing the reference genome (Micrurus_tener.fa) 
+# and a directory with all processed fastq RAD files (PROCESSED_READS)
+# Set directory for bwa calling
+
 setwd('/Users/richadams/Desktop/RAD_PIPELINE/')
 RAD_DIR = '/Users/richadams/Desktop/RAD_PIPELINE/PROCESSED_READS'
 REF_GENOME = '/Users/richadams/Desktop/RAD_PIPELINE/Micrurus_tener.fa'
